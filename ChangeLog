@@ -1,0 +1,126 @@
+2012-08-02 Robert Heel <rheel@1drop.de>
+	* Bugfix: Quote preg expression in domain name.
+
+2012-07-05 Robert Heel <rheel@1drop.de>
+	* Add: TS option to allow multiple subdomains.
+	* Add: TS option to allow check of all combinations of domains and subdomains.
+	* Add: TS option to mark not defined domains as invalid (instead of status check).
+	* Add: Table header labels in list view.
+	* Bugfix: Show domain invalid error message if regex fail.
+	* Change: Consistent use of ###STATUS### and ###STATUS_CODE### in template file.
+	* Change: Code rewrite.
+
+2011-12-06 Robert Heel <rheel@1drop.de>
+	* Add: Spanish translation.
+
+2011-12-05 Robert Heel <rheel@1drop.de>
+	* Add: Marker ###STATUS### in single part.
+	* Add: .xxx whois.
+
+2011-01-17 Robert Heel <rheel@1drop.de>
+	* Add: .dk whois server (Thanks to Lasse Toft Kjelstrup).
+	* Bugfix: Same sort order of tlds in BE and FE.
+
+2011-01-10 Robert Heel <rheel@1drop.de>
+	* Add: Danish translation (Thanks to Lasse Toft Kjelstrup).
+
+2010-12-31 Robert Heel <rheel@1drop.de>
+	* Change: Moved marker ###ERRORMSG### into subpart ###INPUT### with new name ###MESSAGE###.
+	* Change: Using jQuery instead of xajax.
+	* Change: Extension is now cacheable. Please ensure to use hidden field with no_cache set to 1 in your template.
+	* Add: TS constants.
+	* Add: TS option to wrap messages (error.stdWrap and info.stdWrap).
+
+2010-12-22 Robert Heel <rheel@1drop.de>
+	* Update: Set ###FORM_ACTION### marker and don't check submit button value (required for jQuery mobile).
+
+2010-12-10 Robert Heel <rheel@1drop.de>
+	* Add: whois_command configuration.
+
+2010-12-07 Robert Heel <rheel@1drop.de>
+	* Bugfix: Fix TS tlds configuration.
+	* Update: idna_convert 0.6.9.
+	* Add: Whois proxy IDN configuration.
+	* Add: regex_registered entries for .at,.biz,.ch,.com,.de,.eu,.net,.org,.uk.
+
+2010-12-06 Robert Heel <rheel@1drop.de>
+	* Add: Whois proxy configuration.
+	* Add: Query multiple domains with one whois proxy connection.
+	* Change: regex_registered instead of regex_error (if not available and not registered it's an error).
+
+2010-11-05 Robert Heel <rheel@1drop.de>
+	* Change: Select box for TLDs in backend, please run UPDATE! script.
+	* Update: .no/.se regex.
+
+2010-10-26 Robert Heel <rheel@1drop.de>
+	* Update: .de regex.
+
+2010-07-29 Robert Heel <rheel@1drop.de>
+	* Bugfix: Remove unused pages & recursive field.
+	* Add: TS option "allow_all_tlds".
+	* Add: TS option "dont_check_other".
+
+2010-06-11 Robert Heel <rheel@1drop.de>
+	* Add: Regex for error message, please reimport static data!
+	* Add: Optionally log all queries.
+	* Update: .de/.eu regex.
+
+2010-05-11 Robert Heel <rheel@1drop.de>
+	* Bugfix: Disable multilanguage flexform.
+
+2009-12-16 Robert Heel <rheel@1drop.de>
+	* Change: Database structure (move regex_check from whois to tlds), please reimport static data!
+	* Update: .eu IDN domains.
+	* Update: TS default configuration.
+
+2009-05-18 Robert Heel <rheel@1drop.de>
+	* Add: French translation.
+
+2009-03-11 Robert Heel <rheel@1drop.de>
+	* Update: .eu whois regex.
+
+2008-10-09 Robert Heel <rheel@1drop.de>
+	* Bugfix: Correct format of static tables.
+	* Bugfix: Add XCLASS inclusion code.
+
+2008-08-21 Robert Heel <rheel@1drop.de>
+	* Add: some idn domaincheck information.
+	* Add: rootLevel=1 to allow new database records.
+
+2008-08-13 Robert Heel <rheel@1drop.de>
+	* Add: documentation.
+	* Add: idn support.
+	* Change: from ereg to preg_match with option u (utf8).
+
+2008-08-12 Robert Heel <rheel@1drop.de>
+	* Add: default domain check.
+	* Add: option to transfer domains.
+
+2008-07-18 Robert Heel <rheel@1drop.de>
+	* Add: static tables for whois information.
+	* Change: Import data from extension net4all_whois.
+
+2008-07-01 Robert Heel <rheel@1drop.de>
+	* Change: More customizable form template.
+
+2008-06-23 Robert Heel <rheel@1drop.de>
+	* Add: localisation be & nl (Thanks to Henjo Hoeksma).
+
+2008-06-18 Robert Heel <rheel@1drop.de>
+	* Change: More customizable form template
+	* Change: Seperate ajax loading indication
+	* Add: Config option to show a default domain name
+
+2008-06-13 Robert Heel <rheel@1drop.de>
+	* Add: Only transfer required segments
+	* Add: Don't show buy link if no buy page is defined
+
+2008-06-12 Robert Heel <rheel@1drop.de>
+	* Add: TS config options.
+	* Add: Template based form.
+
+2008-06-03 Robert Heel <rheel@1drop.de>
+	* Change: Removed unnessacary dependency to templavoila.
+
+2008-06-03 Robert Heel <rheel@1drop.de>
+	* Initial release

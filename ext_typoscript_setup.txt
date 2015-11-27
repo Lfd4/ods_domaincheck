@@ -1,0 +1,26 @@
+[globalVar = LIT:jquery={$plugin.tx_odsdomaincheck_pi1.JSlibrary}] && [globalVar = LIT:1={$plugin.tx_odsdomaincheck_pi1.JSinclude}]
+	page.includeJSlibs.jquery = EXT:ods_domaincheck/res/jquery/jquery-1.4.4.min.js
+[end]
+
+plugin.tx_odsdomaincheck_pi1 {
+	tlds = {$plugin.tx_odsdomaincheck_pi1.tlds}
+	show_form = {$plugin.tx_odsdomaincheck_pi1.show_form}
+	show_default = {$plugin.tx_odsdomaincheck_pi1.show_default}
+	page_buy = {$plugin.tx_odsdomaincheck_pi1.page_buy}
+	buy_params = {$plugin.tx_odsdomaincheck_pi1.buy_params}
+	page_transfer = {$plugin.tx_odsdomaincheck_pi1.page_transfer}
+	transfer_params = {$plugin.tx_odsdomaincheck_pi1.transfer_params}
+
+	allow_all_tlds = {$plugin.tx_odsdomaincheck_pi1.allow_all_tlds}
+	allow_multiple_slds = 0
+	check_all_combinations = 1
+	# don't check other if domain is registered
+	dont_check_other = {$plugin.tx_odsdomaincheck_pi1.dont_check_other}
+	
+
+	error.stdWrap.wrap = <p class="error">|</p>
+	info.stdWrap.wrap = <p class="info">|</p>
+
+	javascript = EXT:ods_domaincheck/res/ods_domaincheck.js
+	template = EXT:ods_domaincheck/pi1/ods_domaincheck.html
+}

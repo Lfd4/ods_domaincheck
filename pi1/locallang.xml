@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_odsdomaincheck_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="all">All</label>
+			<label index="buy">Order</label>
+			<label index="check_again">Check again</label>
+			<label index="check_domain">Go!</label>
+			<label index="default_sld">Your desired domain</label>
+			<label index="domain_connection_error">Currently no connection to WHOIS server. Please try again later.</label>
+			<label index="domain_available">Available!</label>
+			<label index="domain_registered">Registered</label>
+			<label index="domain_sld_invalid">Domain name is technical incorrect.</label>
+			<label index="domain_tld_invalid">Cannot check this toplevel domain name.</label>
+			<label index="available_header">Congratulation!</label>
+			<label index="available_body">The domain name %s is available.</label>
+			<label index="registered_header">Sorry,</label>
+			<label index="registered_body">the domain name %s is not available.</label>
+			<label index="transfer">Transfer</label>
+			<label index="domain_label">Domain</label>
+			<label index="status_label">Status</label>
+			<label index="action_label">Action</label>
+		</languageKey>
+		<languageKey index="be" type="array">
+			<label index="buy">Bestellen</label>
+			<label index="check_again">Nog een keer checken</label>
+			<label index="check_domain">Check nu!</label>
+			<label index="domain_connection_error">Er is een fout ontstaan bij het verbinden met de whois server. Probeer het later nog eens.</label>
+			<label index="domain_available">Vrij!</label>
+			<label index="domain_registered">Geregistreerd</label>
+			<label index="domain_sld_invalid">Dit domein is niet correct.</label>
+			<label index="domain_tld_invalid">Dit toplevel domein kan niet gecheckt worden.</label>
+			<label index="available_header">Gefeliciteerd!</label>
+			<label index="available_body">Het domein %s is vrij!</label>
+			<label index="registered_header">Helaas,</label>
+			<label index="registered_body">het domein %s is niet beschikbaar.</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="all">Alle</label>
+			<label index="buy">Bestellen</label>
+			<label index="check_again">Nochmals überpüfen</label>
+			<label index="check_domain">Los!</label>
+			<label index="default_sld">Ihre Wunsch-Domain</label>
+			<label index="domain_connection_error">Fehler bei der Verbindung zum whois Server. Versuchen Sie es bitte später noch einmal.</label>
+			<label index="domain_available">Verfügbar!</label>
+			<label index="domain_registered">Registriert</label>
+			<label index="domain_sld_invalid">Der Domainname ist formal falsch.</label>
+			<label index="domain_tld_invalid">Die Topleveldomain kann nicht überprüft werden.</label>
+			<label index="available_header">Herzlichen Glückwunsch!</label>
+			<label index="available_body">Der Domainname %s ist verfügbar.</label>
+			<label index="registered_header">Schade,</label>
+			<label index="registered_body">der Domainname %s ist nicht verfügbar.</label>
+			<label index="transfer">Umziehen</label>
+			<label index="domain_label">Domain</label>
+			<label index="status_label">Status</label>
+			<label index="action_label">Aktion</label>
+		</languageKey>
+		<languageKey index="dk" type="array">
+			<label index="all">Alle</label>
+			<label index="buy">Bestil</label>
+			<label index="check_again">Søg igen</label>
+			<label index="check_domain">Søg</label>
+			<label index="default_sld">Dit ønskede domæne</label>
+			<label index="domain_connection_error">Der er iøjeblikket ingen forbindelse til WHOIS serveren. Prøv igen senere.</label>
+			<label index="domain_available">Ledig!</label>
+			<label index="domain_registered">Optaget</label>
+			<label index="domain_sld_invalid">Ugyldigt domænenavn.</label>
+			<label index="domain_tld_invalid">Kan ikke kontrollere dette toplevel domænenavn.</label>
+			<label index="available_header">Tillyke!</label>
+			<label index="available_body">Domænenavnet %s er ledigt.</label>
+			<label index="registered_header">Beklager,</label>
+			<label index="registered_body">domænenavnet %s er ikke ledigt.</label>
+			<label index="transfer">Flyt</label>
+		</languageKey>
+		<languageKey index="es" type="array">
+			<label index="all">Todos</label>
+			<label index="buy">Pedir</label>
+			<label index="check_again">Revisar de nuevo</label>
+			<label index="check_domain">¡Venga!</label>
+			<label index="default_sld">Su dominio deseado</label>
+			<label index="domain_connection_error">Error mientras conectarse con el servidor whois. Inténtelo más tarde.</label>
+			<label index="domain_available">Dominio disponible</label>
+			<label index="domain_registered">Dominio registrado</label>
+			<label index="domain_sld_invalid">El nombre de dominio es formalmente incorrecto.</label>
+			<label index="domain_tld_invalid">El TLD no puede ser controlado.</label>
+			<label index="available_header">¡Felicitaciones!</label>
+			<label index="available_body">El nombre de dominio %s está disponible. Pedir</label>
+			<label index="registered_header">Lo sentimos,</label>
+			<label index="registered_body">El nombre de dominio %s no es disponible.</label>
+			<label index="transfer">Transferencia</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="all">Tous</label>
+			<label index="buy">Commander</label>
+			<label index="check_again">Vérifiez encore une fois</label>
+			<label index="check_domain">C'est parti!</label>
+			<label index="default_sld">Votre domaine souhaité</label>
+			<label index="domain_connection_error">Erreur lors de la connexion sur le serveur whois. Réessayez plus tard, SVP.</label>
+			<label index="domain_available">Disponible!</label>
+			<label index="domain_registered">Enregistré</label>
+			<label index="domain_sld_invalid">Le nom de domaine est formellement incorrect.</label>
+			<label index="domain_tld_invalid">Le Toplevel-domaine ne peut pas être vérifié.</label>
+			<label index="available_header">Félicitations!</label>
+			<label index="available_body">Le nom de domaine %s est disponible.</label>
+			<label index="registered_header">Dommage,</label>
+			<label index="registered_body">le nom de domaine %s n'est pas disponible.</label>
+			<label index="transfer">Déménagement</label>
+		</languageKey>
+		<languageKey index="nl" type="array">
+			<label index="buy">Bestellen</label>
+			<label index="check_again">Nog een keer checken</label>
+			<label index="check_domain">Check nu!</label>
+			<label index="domain_connection_error">Er is een fout ontstaan bij het verbinden met de whois server. Probeer het later nog eens.</label>
+			<label index="domain_available">Vrij!</label>
+			<label index="domain_registered">Geregistreerd</label>
+			<label index="domain_sld_invalid">Dit domein is niet correct.</label>
+			<label index="domain_tld_invalid">Dit toplevel domein kan niet gecheckt worden.</label>
+			<label index="available_header">Gefeliciteerd!</label>
+			<label index="available_body">Het domein %s is vrij!</label>
+			<label index="registered_header">Helaas,</label>
+			<label index="registered_body">het domein %s is niet beschikbaar.</label>
+		</languageKey>
+	</data>
+</T3locallang>

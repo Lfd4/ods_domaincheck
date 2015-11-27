@@ -1,0 +1,34 @@
+plugin.tx_odsdomaincheck_pi1 {
+# cat=plugin.tx_odsdomaincheck_pi1//01; type=options[jquery]; label=Use javascript library
+JSlibrary = jquery
+
+# cat=plugin.tx_odsdomaincheck_pi1//02; type=boolean; label=Include javascript library
+JSinclude = 1
+
+# cat=plugin.tx_odsdomaincheck_pi1//03; type=string; label=TLDs: Comma seperated list of top level domains.
+tlds =
+
+# cat=plugin.tx_odsdomaincheck_pi1//04; type=boolean; label=Always show form
+show_form = 0
+
+# cat=plugin.tx_odsdomaincheck_pi1//05; type=boolean; label=Show default values
+show_default = 0
+
+# cat=plugin.tx_odsdomaincheck_pi1//06; type=integer; label=Order page
+page_buy = 0
+
+# cat=plugin.tx_odsdomaincheck_pi1//07; type=string; label=Additional order link parameters (query string)
+buy_params =
+
+# cat=plugin.tx_odsdomaincheck_pi1//08; type=integer; label=Transfer page
+page_transfer = 0
+
+# cat=plugin.tx_odsdomaincheck_pi1//09; type=string; label=Additional transfer link parameters (query string)
+transfer_params =
+
+# cat=plugin.tx_odsdomaincheck_pi1//10; type=options[Remove other=0,Show all=1,Show other as invalid=2]; label=Allow all TLDs: Also check domains not defined in tlds.
+allow_all_tlds = 1
+
+# cat=plugin.tx_odsdomaincheck_pi1//11; type=boolean; label=Don't check other TLDs: Don't check other TLDs if desired domain is registered.
+dont_check_other = 0
+}

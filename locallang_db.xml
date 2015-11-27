@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'ods_domaincheck'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">Domaincheck</label>
+			<label index="tt_content.pi_flexform.sheet_sDEF">Configuration</label>
+			<label index="tt_content.pi_flexform.tlds">TLDs</label>
+			<label index="tt_content.pi_flexform.show_form">Always show form</label>
+			<label index="tt_content.pi_flexform.show_default">Show default values</label>
+			<label index="tt_content.pi_flexform.page_buy">Order page</label>
+			<label index="tt_content.pi_flexform.buy_params">Additional order link parameters (query string)</label>
+			<label index="tt_content.pi_flexform.page_transfer">Transfer page</label>
+			<label index="tt_content.pi_flexform.transfer_params">Additional transfer link parameters (query string)</label>
+			<label index="tt_content.pi_flexform.template">Template</label>
+			<label index="tx_odsdomaincheck_log">Domaincheck log</label>
+			<label index="tx_odsdomaincheck_log.domain">Domain</label>
+			<label index="tx_odsdomaincheck_log.response">Response</label>
+			<label index="tx_odsdomaincheck_log.status">Status</label>
+			<label index="tx_odsdomaincheck_tlds">Top level domains</label>
+			<label index="tx_odsdomaincheck_tlds.tld">Top level domain</label>
+			<label index="tx_odsdomaincheck_tlds.regex_check">regex check</label>
+			<label index="tx_odsdomaincheck_tlds.whois">Whois server</label>
+			<label index="tx_odsdomaincheck_whois">Whois server</label>
+			<label index="tx_odsdomaincheck_whois.server">Server</label>
+			<label index="tx_odsdomaincheck_whois.idn.select">IDN</label>
+			<label index="tx_odsdomaincheck_whois.idn.select.I.0">Not supported</label>
+			<label index="tx_odsdomaincheck_whois.idn.select.I.1">Transmit encoded domain name</label>
+			<label index="tx_odsdomaincheck_whois.idn.select.I.2">Transmit utf8 domain name</label>
+			<label index="tx_odsdomaincheck_whois.regex_error">regex error</label>
+			<label index="tx_odsdomaincheck_whois.regex_free">regex free</label>
+			<label index="tx_odsdomaincheck_whois.regex_invalid">regex invalid</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tt_content.list_type_pi1">Domaincheck</label>
+			<label index="tt_content.pi_flexform.sheet_sDEF">Konfiguration</label>
+			<label index="tt_content.pi_flexform.tlds">TLDs</label>
+			<label index="tt_content.pi_flexform.show_form">Eingabefeld immer anzeigen</label>
+			<label index="tt_content.pi_flexform.show_default">Vorgabewerte zeigen</label>
+			<label index="tt_content.pi_flexform.page_buy">Kaufen-Seite</label>
+			<label index="tt_content.pi_flexform.buy_params">Weitere Kaufen-Link-Parameter (query string)</label>
+			<label index="tt_content.pi_flexform.page_transfer">Transfer-Seite</label>
+			<label index="tt_content.pi_flexform.transfer_params">Weitere Transfer-Link-Parameter (query string)</label>
+			<label index="tt_content.pi_flexform.template">Template</label>
+			<label index="tx_odsdomaincheck_log">Domaincheck Log</label>
+			<label index="tx_odsdomaincheck_log.domain">Domain</label>
+			<label index="tx_odsdomaincheck_log.response">Antwort</label>
+			<label index="tx_odsdomaincheck_log.status">Status</label>
+			<label index="tx_odsdomaincheck_tlds">Toplevel Domains</label>
+			<label index="tx_odsdomaincheck_tlds.tld">Toplevel Domain</label>
+			<label index="tx_odsdomaincheck_tlds.regex_check">Regex Überprüfung</label>
+			<label index="tx_odsdomaincheck_tlds.whois">Whois Server</label>
+			<label index="tx_odsdomaincheck_whois">Whois Server</label>
+			<label index="tx_odsdomaincheck_whois.server">Server</label>
+			<label index="tx_odsdomaincheck_whois.idn.select">IDN</label>
+			<label index="tx_odsdomaincheck_whois.idn.select.I.0">Nicht unterstützt</label>
+			<label index="tx_odsdomaincheck_whois.idn.select.I.1">Übertrage codierten Domainnamen</label>
+			<label index="tx_odsdomaincheck_whois.idn.select.I.2">Übertrage utf8 Domainnamen</label>
+			<label index="tx_odsdomaincheck_whois.regex_error">Regex Fehler</label>
+			<label index="tx_odsdomaincheck_whois.regex_free">Regex Frei</label>
+			<label index="tx_odsdomaincheck_whois.regex_invalid">Regex Ungültig</label>
+		</languageKey>
+		<languageKey index="nl" type="array">
+			<label index="tt_content.list_type_pi1">Domeincheck</label>
+			<label index="tt_content.pi_flexform.sheet_sDEF">Configuratie</label>
+			<label index="tt_content.pi_flexform.tlds">TLDs</label>
+			<label index="tt_content.pi_flexform.show_form">Toon het formulier altijd</label>
+			<label index="tt_content.pi_flexform.page_buy">Aanschaf pagina</label>
+			<label index="tt_content.pi_flexform.buy_params">Additionele link parameters (query string)</label>
+			<label index="tt_content.pi_flexform.template">Template</label>
+		</languageKey>
+		<languageKey index="be" type="array">
+			<label index="tt_content.list_type_pi1">Domeincheck</label>
+			<label index="tt_content.pi_flexform.sheet_sDEF">Configuratie</label>
+			<label index="tt_content.pi_flexform.tlds">TLDs</label>
+			<label index="tt_content.pi_flexform.show_form">Toon het formulier altijd</label>
+			<label index="tt_content.pi_flexform.page_buy">Aanschaf pagina</label>
+			<label index="tt_content.pi_flexform.buy_params">Additionele link parameters (query string)</label>
+			<label index="tt_content.pi_flexform.template">Template</label>
+		</languageKey>
+	</data>
+</T3locallang>

@@ -1,0 +1,42 @@
+<!-- ###DOMAINCHECK### begin -->
+<!-- ###INPUT### begin -->
+###MESSAGE###
+<div class="form">
+	<form action="###FORM_ACTION###" enctype="multipart/form-data" id="###FORM_ID###" method="post" onsubmit="###FORM_ONSUBMIT###">
+		<input name="no_cache" type="hidden" value="1" />
+		<input name="###SLD_NAME###" type="text" value="###SLD_VALUE###" />
+		<select name="###TLD_NAME###">###TLDS###</select>
+		<input name="###SUBMIT_NAME###" onclick="###SUBMIT_ONCLICK###" type="submit" value="###SUBMIT_VALUE###" />
+	</form>
+</div>
+<!-- ###INPUT### end -->
+
+<!-- ###INDICATION### begin -->
+<img src="typo3conf/ext/ods_domaincheck/res/loading.gif" alt="loading..." />
+<!-- ###INDICATION### end -->
+
+<!-- ###SINGLE### begin -->
+<div class="single ###STATUS_CODE###">
+	<div class="header">###HEADER###</div>
+	<div class="body">###BODY###</div>
+	###CHECK_AGAIN###
+</div>
+<!-- ###SINGLE### end -->
+
+<!-- ###LIST### begin -->
+<table class="list">
+	<tr>
+		<th>###DOMAIN_LABEL###</th>
+		<th>###STATUS_LABEL###</th>
+		<th>###ACTION_LABEL###</th>
+	</tr>
+	<!-- ###LIST_ROW### begin -->
+	<tr class="###TR_CLASS### ###STATUS_CODE###">
+		<td>###DOMAIN###</td>
+		<td>###STATUS###</td>
+		<td>###ACTION###</td>
+	</tr>
+	<!-- ###LIST_ROW### end -->
+</table>
+<!-- ###LIST### end -->
+<!-- ###DOMAINCHECK### end -->

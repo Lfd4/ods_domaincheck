@@ -1,0 +1,23 @@
+# cat=basic; type=options[Off=0,Trace=1,Debug=2]; label=Log all queries to tx_odsdomaincheck_log: You'll find the log entries on root page.
+log = 0
+
+# cat=basic; type=string; label=Path to whois command: Enter /usr/bin/whois to use command line whois instead of socket connection.
+whois_command =
+
+# cat=basic; type=string; label=Use proxy server
+proxy.server =
+
+# cat=basic; type=options[No IDN=0,Only ACE=1,IDN=2]; label=International Domain Names
+proxy.idn = 2
+
+# cat=basic; type=boolean; label=Handle multiple domain names at once: The regex have to contain ###DOMAIN### for the domain name.
+proxy.multi = 0
+
+# cat=basic; type=string; label=Regex if domain is registered
+proxy.regex_registered =
+
+# cat=basic; type=string; label=Regex if domain is available
+proxy.regex_free =
+
+# cat=basic; type=string; label=Regex if domain is invalid
+proxy.regex_invalid =
