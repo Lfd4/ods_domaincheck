@@ -139,7 +139,6 @@ class tx_odsdomaincheck_pi1 extends tslib_pibase {
 	function processInput(){
 		if($this->piVars['sld']){
 			$check=new tx_odsdomaincheck_whois($this->config);
-			$check->setDomain($this->piVars['sld'],$this->piVars['tld']);
 
 			if(!$check->tld){
 				// All
@@ -148,6 +147,7 @@ class tx_odsdomaincheck_pi1 extends tslib_pibase {
 				$all_tlds=$check->tlds;
 				$check->setTlds(array_intersect($all_tlds,$this->tlds));
 			}
+			$check->setDomain($this->piVars['sld'],$this->piVars['tld']);
 			$this->domains=$check->check_domains();
 
 			// Show other as invalid 
